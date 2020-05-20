@@ -74,10 +74,14 @@
     <Compile Include="Utilerias\BaseHelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\IrvingPhotos\pecados.png" />
+    <Content Include="Content\IrvingPhotos\pecados2.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Views\Home\Index.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -99,6 +103,10 @@
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Content\ChendoPhotos\" />
+    <Folder Include="Content\Francisco420Photos\" />
+    <Folder Include="Content\ObedJassoPhotos\" />
+    <Folder Include="Content\PacoYee661Photos\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
