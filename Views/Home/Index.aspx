@@ -48,7 +48,7 @@
         Bienvenido a la pagina oficial de los 7 pecados capitales
     </h1>
     <center>
-    <a href="/Persona/Index">Ver lista de  </a> 
+    <a href="/Video/ConsultarVideos">Ver lista de videos  </a> 
     </center>
 </body>
 </html>

@@ -67,9 +67,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\VideoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\IVideo.cs" />
+    <Compile Include="Models\RepositorioVideo.cs" />
+    <Compile Include="Models\Video.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilerias\BaseHelper.cs" />
   </ItemGroup>
@@ -79,6 +83,11 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Video\AgregarVideos.aspx" />
+    <Content Include="Views\Video\BorrarVideos.aspx" />
+    <Content Include="Views\Video\ConsultarVideos.aspx" />
+    <Content Include="Views\Video\DetallesVideos.aspx" />
+    <Content Include="Views\Video\EditarVideos.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -107,7 +116,6 @@
     <Folder Include="Content\Francisco420Photos\" />
     <Folder Include="Content\ObedJassoPhotos\" />
     <Folder Include="Content\PacoYee661Photos\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
