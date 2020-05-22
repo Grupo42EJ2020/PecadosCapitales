@@ -46,9 +46,20 @@
         <br />
         <br />
         Bienvenido a la pagina oficial de los 7 pecados capitales
-    </h1>
+     </h1>
     <center>
-    <a href="/Video/ConsultarVideos">Ver lista de videos  </a> 
+    <a href="//">EMPLEADO</a> 
+        <br />
+    <a href="/Curso/Index">CURSO</a> 
+        <br />
+    <a href="//">TEMA</a> 
+        <br />
+    <a href="//">CURSO_TEMA</a> 
+        <br />
+    <a href="//">CURSO_TEMA_VIDEO</a> 
+        <br />
+    <a href="/Video/ConsultarVideos">VIDEO</a> 
+        <br />
     </center>
 </body>
 </html>

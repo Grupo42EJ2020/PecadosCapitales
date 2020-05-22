@@ -1,21 +1,21 @@
-﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
+﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<IEnumerable<MVCLaboratorio.Models.Curso>>" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
-<head runat="server">
-    <title>ConsultarVideos</title>
+<head id="Head1" runat="server">
+    <title>Cursos</title>
 </head>
 <body>
- <table>
+    <table>
         <tr>
             <th></th>
             <th>
-                IdVideo
+                IdCurso
             </th>
             <th>
-                Nombre
-            </th>          
+                Descripcion
+            </th>
             
         </tr>
 
@@ -23,17 +23,16 @@
     
         <tr>
             <td>
-                <%: Html.ActionLink("Editar", "EditarVideos", new {  id=item.IdVideo  }) %> |
-                <%: Html.ActionLink("Detalles", "DetallesVideos", new {  id=item.IdVideo })%> |
-                <%: Html.ActionLink("Eliminar", "BorrarVideos", new {  id=item.IdVideo  })%>
+                <%: Html.ActionLink("Editar", "CursoEdit", new { id = item.IdCurso })%> |
+                <%: Html.ActionLink("Detalles", "CursoDetails", new { id = item.IdCurso })%> |
+                <%: Html.ActionLink("Borrar", "CursoDelete", new { id = item.IdCurso })%>
             </td>
             <td>
-                <%: item.IdVideo %>
+                <%: item.IdCurso %>
             </td>
             <td>
-                <%: item.Nombre %>
+                <%: item.Descripcion %>
             </td>
-           
             
         </tr>
     
@@ -42,13 +41,16 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Nuevo Video", "AgregarVideos") %>
-    </p>
-    <style>
+        <%: Html.ActionLink("Agregar", "CursoCreate")%>
+         <style>
     a { color: Black; } /* CSS link color */
   </style>
   <center> 
      <a href="/Home/Index">Regresar a la lista</a> </center>
     </style>
+    </p>
+
 </body>
 </html>
+
+

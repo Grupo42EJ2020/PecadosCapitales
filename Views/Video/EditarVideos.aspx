@@ -1,18 +1,18 @@
-﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
+﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<MVCLaboratorio.Models.Video>" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
-<head runat="server">
-    <title>EditarVideos</title>
+<head id="Head1" runat="server">
+    <title>Actualizacion de los datos del video</title>
 </head>
 <body>
     <% using (Html.BeginForm()) {%>
         <%: Html.ValidationSummary(true) %>
         
         <fieldset>
-            <legend>Datos</legend>
-                                   
+            <legend>Fields</legend>
+            
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.Nombre) %>
             </div>
@@ -45,7 +45,9 @@
     <% } %>
 
     <div>
-        <%: Html.ActionLink("Regresar a la tabla", "ConsultarVideos") %>
+       <%: Html.ActionLink("Regresar a la tabla", "ConsultarVideos") %>
     </div>
+
 </body>
 </html>
+

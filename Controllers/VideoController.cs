@@ -142,6 +142,8 @@ namespace MVCLaboratorio.Controllers
 
             return RedirectToAction("ConsultarVideos");
         }
+        //*********************
+
         public ActionResult AgregarVideos(string Nombre, string Url, DateTime FechaPublicacion)
         {
             List<SqlParameter> parametros = new List<SqlParameter>();
