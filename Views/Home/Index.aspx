@@ -9,43 +9,39 @@
     {
     width: 100%;
     height: 110%; 
-    background: #FFFFFF;
-    font-family: Helvetica; 
+    background: #B82222;
+    font-family:Arial ; 
     }
     a:link, a:visited{
     text-decoration: none;
-    padding: 20px;
+    padding: 15px;
     font-family: Helvetica;
     text-transform: uppercase;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 15px;
     font-weight: 200;
     font-size: 25px;
     color: black;
-    width:200px;
-    height:25px;
+    width:270px;
+    height:30px;
     text-align:center;
     display: inline-block;
-    margin: 20px 20px 0 20px;
-    background-color: #d3dde0;
+    margin: 25px 50px 0 50px;
+    background-color: #B82222;
     }
     a:hover{
     color: #4c5557;
     background-color: #dff2f7;
     text-decoration: none;
     }           
-    
     </style>
 </head>
 <body>
-<center>
-    <img src="../../Content/IrvingPhotos/pecados.png" width="200" height="100"/>
-    </center>
     <hr />
-    <h1>
-        <br />
-        <br />
-        Bienvenido a la pagina oficial de los 7 pecados capitales
+    <center>
+    <img src="../../Content/IrvingPhotos/pecados.png" width="400" height="200"/>
+    </center>
+    <h1><center>Bienvenido a la pagina oficial de los 7 pecados capitales </center>
      </h1>
     <center>
     <a href="//">EMPLEADO</a> 
@@ -61,5 +57,7 @@
     <a href="/Video/Video">VIDEO</a> 
         <br />
     </center>
+     
+    <marquee> <img src="../../Content/IrvingPhotos/pecados.png" width="100" height="50"/></marquee>
 </body>
 </html>

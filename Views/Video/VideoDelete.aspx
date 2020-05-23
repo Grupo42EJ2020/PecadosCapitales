@@ -7,7 +7,7 @@
     <title>VideoDelete</title>
 </head>
 <body>
-    <h3>¿Estas seguro de borrar este Tema?</h3>
+    <h3>¿Estas seguro de borrar este Video?</h3>
     <fieldset>
         <legend>Datos</legend>
         
