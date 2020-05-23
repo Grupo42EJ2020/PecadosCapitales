@@ -58,7 +58,7 @@
         <br />
     <a href="//">CURSO_TEMA_VIDEO</a> 
         <br />
-    <a href="/Video/ConsultarVideos">VIDEO</a> 
+    <a href="/Video/Video">VIDEO</a> 
         <br />
     </center>
 </body>

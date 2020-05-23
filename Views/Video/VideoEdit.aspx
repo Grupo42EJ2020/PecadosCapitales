@@ -4,14 +4,22 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
-    <title>Actualizacion de los datos del video</title>
+    <title>VideoEdit</title>
 </head>
 <body>
     <% using (Html.BeginForm()) {%>
         <%: Html.ValidationSummary(true) %>
         
         <fieldset>
-            <legend>Fields</legend>
+            <legend>Datos</legend>
+            
+            <div class="editor-label">
+                <%: Html.LabelFor(model => model.IdVideo) %>
+            </div>
+            <div class="editor-field">
+                <%: Html.TextBoxFor(model => model.IdVideo) %>
+                <%: Html.ValidationMessageFor(model => model.IdVideo) %>
+            </div>
             
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.Nombre) %>
@@ -38,14 +46,14 @@
             </div>
             
             <p>
-                <input type="submit" value="Guardar" />
+                <input type="submit" value="Editar" />
             </p>
         </fieldset>
 
     <% } %>
 
     <div>
-       <%: Html.ActionLink("Regresar a la tabla", "ConsultarVideos") %>
+        <%: Html.ActionLink("Regresar al apartado Video", "Video")%>
     </div>
 
 </body>

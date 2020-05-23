@@ -12,7 +12,8 @@
         
         <fieldset>
             <legend>Datos</legend>
-            
+                   
+           
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.Descripcion) %>
             </div>

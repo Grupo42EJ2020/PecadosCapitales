@@ -1,13 +1,13 @@
-﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
+﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<MVCLaboratorio.Models.Video>" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
-<head runat="server">
-    <title>DetallesVideos</title>
+<head id="Head1" runat="server">
+    <title>VideoDetails</title>
 </head>
 <body>
-  <fieldset>
+    <fieldset>
         <legend>Datos</legend>
         
         <div class="display-label">IdVideo</div>
@@ -24,10 +24,10 @@
         
     </fieldset>
     <p>
-
-        <%: Html.ActionLink("Editar", "EditarVideos", new {  id=Model.IdVideo  }) %> |
-        <%: Html.ActionLink("Regresar a la lista o tabla", "ConsultarVideos") %>
+        <%: Html.ActionLink("Editar", "VideoEdit", new { id = Model.IdVideo })%> |
+        <%: Html.ActionLink("Regresar al apartado Video", "Video") %>
     </p>
 
 </body>
 </html>
+

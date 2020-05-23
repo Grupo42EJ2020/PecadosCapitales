@@ -5,7 +5,13 @@ using System.Web;
 
 using System.Data;
 using MVCLaboratorio.Utilerias;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 using System.Data.SqlClient;
+using System.Data;
+using MVCLaboratorio.Utilerias;
 
 namespace MVCLaboratorio.Models
 {
@@ -14,14 +20,11 @@ namespace MVCLaboratorio.Models
 
         public List<Video> obtenerVideos()
         {
-            //implementar funcionalidad
-            //obtener la info de los videos de la BD
             DataTable dtVideos;
             dtVideos = BaseHelper.ejecutarConsulta("sp_Video_ConsultarTodo", CommandType.StoredProcedure);
 
             List<Video> lstVideos = new List<Video>();
 
-            //convertir el DataTable a una lista de videos List<Video>
             foreach (DataRow item in dtVideos.Rows)
             {
                 Video videoAux = new Video();
@@ -45,10 +48,9 @@ namespace MVCLaboratorio.Models
 
             dtVideo = BaseHelper.ejecutarConsulta("sp_Video_ConsultarPorID", CommandType.StoredProcedure, parametros);
 
-            //convertir el dtVideo a un objeto Video
             Video datosVideo = new Video();
 
-            if (dtVideo.Rows.Count > 0) //si lo encontro
+            if (dtVideo.Rows.Count > 0)
             {
                 datosVideo.IdVideo = int.Parse(dtVideo.Rows[0]["IdVideo"].ToString());
                 datosVideo.Nombre = dtVideo.Rows[0]["Nombre"].ToString();
@@ -65,7 +67,6 @@ namespace MVCLaboratorio.Models
 
         public void insertarVideo(Video datosVideo)
         {
-            //realizar el update
             List<SqlParameter> parametros = new List<SqlParameter>();
             parametros.Add(new SqlParameter("@Nombre", datosVideo.Nombre));
             parametros.Add(new SqlParameter("@Url", datosVideo.Url));
@@ -86,7 +87,6 @@ namespace MVCLaboratorio.Models
 
         public void actualizarVideo(Video datosVideo)
         {
-            //realizar el update
             List<SqlParameter> parametros = new List<SqlParameter>();
             parametros.Add(new SqlParameter("@IdVideo", datosVideo.IdVideo));
             parametros.Add(new SqlParameter("@Nombre", datosVideo.Nombre));

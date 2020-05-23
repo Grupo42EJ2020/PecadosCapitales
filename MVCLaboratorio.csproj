@@ -93,11 +93,11 @@
     <Content Include="Views\Curso\Index.aspx" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
-    <Content Include="Views\Video\AgregarVideos.aspx" />
-    <Content Include="Views\Video\BorrarVideos.aspx" />
-    <Content Include="Views\Video\ConsultarVideos.aspx" />
-    <Content Include="Views\Video\DetallesVideos.aspx" />
-    <Content Include="Views\Video\EditarVideos.aspx" />
+    <Content Include="Views\Video\Video.aspx" />
+    <Content Include="Views\Video\VideoCreate.aspx" />
+    <Content Include="Views\Video\VideoDelete.aspx" />
+    <Content Include="Views\Video\VideoDetails.aspx" />
+    <Content Include="Views\Video\VideoEdit.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
