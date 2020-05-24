@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data;
+using MVCLaboratorio.Utilerias;
+using System.Data.SqlClient;
 using System.Web.Mvc;
 using MVCLaboratorio.Models;
 
