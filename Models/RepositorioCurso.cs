@@ -11,7 +11,6 @@ namespace MVCLaboratorio.Models
 {
     public class RepositorioCurso : ICurso
     {
-
         public List<Curso> obtenerCurso()
         {
             //implementar funcionalidad

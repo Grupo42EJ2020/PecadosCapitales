@@ -50,7 +50,7 @@
         <br />
     <a href="//">TEMA</a> 
         <br />
-    <a href="//">CURSO_TEMA</a> 
+    <a href="/Curso_Tema/Index">CURSO_TEMA</a> 
         <br />
     <a href="//">CURSO_TEMA_VIDEO</a> 
         <br />

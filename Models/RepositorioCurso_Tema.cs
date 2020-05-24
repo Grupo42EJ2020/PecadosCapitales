@@ -2,19 +2,20 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+
 using System.Data;
 using MVCLaboratorio.Utilerias;
 using System.Data.SqlClient;
 
 namespace MVCLaboratorio.Models
 {
-    public class RepositorioCurso_Tema
+    public class RepositorioCurso_Tema : ICurso_Tema
     {
         public List<Curso_Tema> obtenerCurso_Tema()
         {
             //Obtener la informacion de Curso_Tema de la Base
             DataTable dtCurso_Tema;
-            dtCurso_Tema = BaseHelper.ejecutarConsulta("sp_Curso_Tema _ConsultarTodo", CommandType.StoredProcedure);
+            dtCurso_Tema = BaseHelper.ejecutarConsulta("sp_Curso_Tema_ConsultarTodo", CommandType.StoredProcedure);
 
             List<Curso_Tema> lstCurso_Tema = new List<Curso_Tema>();
 

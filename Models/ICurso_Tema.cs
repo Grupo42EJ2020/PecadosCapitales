@@ -5,12 +5,12 @@ using System.Web;
 
 namespace MVCLaboratorio.Models
 {
-    public class ICurso_Tema
+    public interface ICurso_Tema
     {
-        //List<Curso_Tema> obtenerCurso_Tema();
-        //Curso_Tema obtenerCurso_Tema(int IdCT);
-        //void insertarCurso_Tema(Curso_Tema datosCurso);
-        //void eliminarCurso_Tema(int idCT);
-        //void actualizarCurso_Tema(Curso_Tema datosCurso);
+        List<Curso_Tema> obtenerCurso_Tema();
+        Curso_Tema obtenerCurso_Tema(int IdCT);
+        void insertarCurso_Tema(Curso_Tema datosCurso);
+        void eliminarCurso_Tema(int idCT);
+        void actualizarCurso_Tema(Curso_Tema datosCurso);
     }
 }
