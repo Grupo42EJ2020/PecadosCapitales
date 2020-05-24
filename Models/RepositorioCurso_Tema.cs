@@ -11,6 +11,7 @@ namespace MVCLaboratorio.Models
 {
     public class RepositorioCurso_Tema : ICurso_Tema
     {
+        public object IdCT;
         public List<Curso_Tema> obtenerCurso_Tema()
         {
             //Obtener la informacion de Curso_Tema de la Base
@@ -23,9 +24,9 @@ namespace MVCLaboratorio.Models
             foreach (DataRow item in dtCurso_Tema.Rows)
             {
                 Curso_Tema CursoAux = new Curso_Tema();
-                CursoAux.IdCurso = int.Parse(item["IdCT"].ToString());
+                CursoAux.IdCT = int.Parse(item["IdCT"].ToString());
                 CursoAux.IdCurso = int.Parse(item["IdCurso"].ToString());
-                CursoAux.IdCurso = int.Parse(item["IdTema"].ToString());
+                CursoAux.IdTema = int.Parse(item["IdTema"].ToString());
 
 
                 lstCurso_Tema.Add(CursoAux);
