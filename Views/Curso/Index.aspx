@@ -16,7 +16,9 @@
             <th>
                 Descripcion
             </th>
-            
+              <th>
+                IdEmpleado
+            </th>
         </tr>
 
     <% foreach (var item in Model) { %>
@@ -33,6 +35,10 @@
             <td>
                 <%: item.Descripcion %>
             </td>
+            <td>
+                <%: item.IdEmpleado %>
+            </td>
+        </tr>
             
         </tr>
     

@@ -17,8 +17,7 @@
         <div class="display-label">Descripcion</div>
         <div class="display-field"><%: Model.Descripcion %></div>
         
-        <div class="display-label">IdEmpleado</div>
-        <div class="display-field"><%: Model.IdEmpleado %></div>
+      
         
     </fieldset>
     <% using (Html.BeginForm()) { %>
