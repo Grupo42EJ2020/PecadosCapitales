@@ -9,7 +9,7 @@
     {
     width: 100%;
     height: 110%; 
-    background: #B82222;
+    background: #DD4E02;
     font-family:Arial ; 
     }
     a:link, a:visited{
@@ -27,7 +27,7 @@
     text-align:center;
     display: inline-block;
     margin: 25px 50px 0 50px;
-    background-color: #B82222;
+    background-color: #DD4E02;
     }
     a:hover{
     color: #4c5557;
@@ -39,9 +39,9 @@
 <body>
     <hr />
     <center>
-    <img src="../../Content/IrvingPhotos/pecados.png" width="400" height="200"/>
+        <img src="../../Content/IrvingPhotos/pecados2.jpg" width="400" height="200"/>
     </center>
-    <h1><center>Bienvenido a la pagina oficial de los 7 pecados capitales </center>
+    <h1><center>&#10015; Bienvenido a la pagina oficial de los 7 pecados capitales &#10015; </center>
      </h1>
     <center>
     <a href="//">EMPLEADO</a> 
@@ -58,6 +58,6 @@
         <br />
     </center>
      
-    <marquee> <img src="../../Content/IrvingPhotos/pecados.png" width="100" height="50"/></marquee>
+    <marquee>  <img src="../../Content/IrvingPhotos/pecados2.jpg" width="100" height="50"/></marquee>
 </body>
 </html>

@@ -5,38 +5,53 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head id="Head1" runat="server">
     <title>Cursos</title>
+
 </head>
-<body>
+<body> 
+<body style="background-color:#B82222 ;">
+    <center>
+    
+    <img align="right" src="../../Content/IrvingPhotos/pecados.png" width="600" height="350"/>
+    </center>
     <table>
         <tr>
             <th></th>
             <th>
-                IdCurso
+                Numero del Curso
             </th>
             <th>
-                Descripcion
+                Descripcion del Curso
             </th>
               <th>
-                IdEmpleado
+                Numero del Empleado que lleva este Curso
             </th>
         </tr>
-
+        <br />
     <% foreach (var item in Model) { %>
     
         <tr>
-            <td>
+            <td> 
                 <%: Html.ActionLink("Editar", "CursoEdit", new { id = item.IdCurso })%> |
+                
                 <%: Html.ActionLink("Detalles", "CursoDetails", new { id = item.IdCurso })%> |
+
                 <%: Html.ActionLink("Borrar", "CursoDelete", new { id = item.IdCurso })%>
             </td>
             <td>
+                <center>
+                
                 <%: item.IdCurso %>
+                </center>
             </td>
             <td>
+            <center>
                 <%: item.Descripcion %>
+                 </center>
             </td>
             <td>
+            <center>
                 <%: item.IdEmpleado %>
+                 </center>
             </td>
         </tr>
             
@@ -47,12 +62,17 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Agregar", "CursoCreate")%>
+        <br />
+    <style>
+    a { color: Black; } /* CSS link color */
+  </style>
+  <center> 
+        <%: Html.ActionLink("AGREGAR", "CursoCreate")%>
          <style>
     a { color: Black; } /* CSS link color */
   </style>
   <center> 
-     <a href="/Home/Index">Regresar a la lista</a> </center>
+     <a href="/Home/Index">REGRESAR A LA LISTA</a> </center>
     </style>
     </p>
 

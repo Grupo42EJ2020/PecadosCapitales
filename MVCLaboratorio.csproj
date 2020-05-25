@@ -99,6 +99,10 @@
     <Content Include="Views\Curso\CursoDetails.aspx" />
     <Content Include="Views\Curso\CursoEdit.aspx" />
     <Content Include="Views\Curso\Index.aspx" />
+    <Content Include="Views\Curso_Tema\Curso_TemaCreate.aspx" />
+    <Content Include="Views\Curso_Tema\Curso_TemaDelete.aspx" />
+    <Content Include="Views\Curso_Tema\Curso_TemaDetails.aspx" />
+    <Content Include="Views\Curso_Tema\Curso_TemaEdit.aspx" />
     <Content Include="Views\Curso_Tema\Index.aspx" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
@@ -152,7 +156,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>22359</DevelopmentServerPort>
+          <DevelopmentServerPort>57766</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

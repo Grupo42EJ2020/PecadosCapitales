@@ -9,8 +9,8 @@ namespace MVCLaboratorio.Models
     {
         List<Curso_Tema> obtenerCurso_Tema();
         Curso_Tema obtenerCurso_Tema(int IdCT);
-        void insertarCurso_Tema(Curso_Tema datosCurso);
+        void insertarCurso_Tema(Curso_Tema datosCurso_Tema);
         void eliminarCurso_Tema(int idCT);
-        void actualizarCurso_Tema(Curso_Tema datosCurso);
+        void actualizarCurso_Tema(Curso_Tema datosCurso_Tema);
     }
 }
