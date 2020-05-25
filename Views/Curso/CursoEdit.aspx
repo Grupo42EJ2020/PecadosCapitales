@@ -6,14 +6,17 @@
 <head id="Head1" runat="server">
     <title>CursoEdit</title>
 </head>
-<body>
+<body><body style="background-color:#B82222 ;"> 
+
     <% using (Html.BeginForm()) {%>
         <%: Html.ValidationSummary(true) %>
-        
-        <fieldset>
-            <legend>Datos</legend>
+        <center> 
+      
+    <h1> EDITAR UN CURSO</h1></center>
+
+  <center> <img align=left src="../../Content/IrvingPhotos/pecados.png" width="600" height="350"/> </center>
             
-           
+           <center> 
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.Descripcion) %>
             </div>
@@ -33,12 +36,18 @@
             <p>
                 <input type="submit" value="Guardar" />
             </p>
-        </fieldset>
+        </center>
 
     <% } %>
 
     <div>
+     <style>
+    a { color: Black; } /* CSS link color */
+  </style>
+  <center> 
         <%: Html.ActionLink("Regresar", "Index") %>
+        </style>
+      </center>
     </div>
 
 </body>

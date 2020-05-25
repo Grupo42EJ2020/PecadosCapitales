@@ -6,24 +6,34 @@
 <head id="Head1" runat="server">
     <title>CursoDelete</title>
 </head>
-<body>
-    <h3>¿Seguro que quieres eliminarlo?</h3>
+<body><body style="background-color:#B82222 ;">
+<center> <img align=right src="../../Content/IrvingPhotos/pecados.png" width="600" height="350"/> </center>
     <fieldset>
-        <legend>Informacion</legend>
+    <h3>¿SEGURO QUE QUIERES ELIMINARLO?</h3>
+   
+        
+    <br />
         
         <div class="display-label">IdCurso</div>
         <div class="display-field"><%: Model.IdCurso %></div>
-        
+    <br />
         <div class="display-label">Descripcion</div>
         <div class="display-field"><%: Model.Descripcion %></div>
         
       
-        
-    </fieldset>
+     </fieldset>   
+     
     <% using (Html.BeginForm()) { %>
         <p>
+            <br />
 		    <input type="submit" value="Eliminar" /> |
+             <style>
+    a { color: Black; } /* CSS link color */
+  </style>
+
 		    <%: Html.ActionLink("Regresar", "Index") %>
+     
+      </style>
         </p>
     <% } %>
 

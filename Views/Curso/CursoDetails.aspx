@@ -6,23 +6,36 @@
 <head id="Head1" runat="server">
     <title>CursoDetails</title>
 </head>
-<body>
-    <fieldset>
-        <legend>Datos</legend>
+<body><body style="background-color:#B82222;">
+<center> <h1> DETALLES DEL CURSO</h1></center>
+
+  <center> <img align=right src="../../Content/IrvingPhotos/pecados.png" width="600" height="350"/> </center>
+  
+        
         
         <div class="display-label">IdCurso</div>
         <div class="display-field"><%: Model.IdCurso %></div>
-        
+    <br />
+
         <div class="display-label">Descripcion</div>
         <div class="display-field"><%: Model.Descripcion %></div>
-        
+    <br />
+         
         <div class="display-label">IdEmpleado</div>
         <div class="display-field"><%: Model.IdEmpleado %></div>
-        
-    </fieldset>
+      
+    
     <p>
-       <%: Html.ActionLink("Editar", "CursoEdit", new { id = Model.IdCurso})%> 
-        <%: Html.ActionLink("Regresar", "Index") %>
+        <br />
+     <style>
+    a { color: Black; } /* CSS link color */
+  </style>
+  <center> 
+       <%: Html.ActionLink("EDITAR", "CursoEdit", new { id = Model.IdCurso})%> 
+      <br />
+        <%: Html.ActionLink("REGRESAR", "Index") %>
+        </center>
+        </style>
     </p>
 
 </body>

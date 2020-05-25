@@ -6,12 +6,13 @@
 <head id="Head1" runat="server">
     <title>CursoCreate</title>
 </head>
-<body>
+<body><body style="background-color:#B82222 ;">
+<center> <img align=right src="../../Content/IrvingPhotos/pecados.png" width="600" height="350"/> </center>
     <% using (Html.BeginForm()) {%>
         <%: Html.ValidationSummary(true) %>
 
         <fieldset>
-            <legend>Datos</legend>
+            <legend>AGREGAR UN NUEVO CURSO</legend>
             
             
             
@@ -35,11 +36,18 @@
                 <input type="submit" value="Guardar" />
             </p>
         </fieldset>
+    <br />
 
     <% } %>
 
     <div>
-         <%: Html.ActionLink("Regresar", "Index") %>
+     <style>
+    a { color: Black; } /* CSS link color */
+  </style>
+  <center> 
+         <%: Html.ActionLink("REGRESAR", "Index") %>
+         </center>
+         </style>
     </div>
 
 </body>
