@@ -52,7 +52,7 @@
         <br />
     <a href="/Curso_Tema/Index">CURSO_TEMA</a> 
         <br />
-    <a href="//">CURSO_TEMA_VIDEO</a> 
+    <a href="/Curso_Tema_Video/Index/">CURSO_TEMA_VIDEO</a> 
         <br />
     <a href="/Video/Video">VIDEO</a> 
         <br />
