@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MVCLaboratorio.Models
 {
-    public class ITema
+    public interface ITema
     {
         List<Tema> obtenerCurso();
         Tema obtenerCurso(int IdTema);

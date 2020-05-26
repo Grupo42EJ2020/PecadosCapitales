@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<MVCLaboratorio.Models.Curso>" %>
+﻿
+<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<MVCLaboratorio.Models.Curso>" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -12,9 +13,7 @@
         <%: Html.ValidationSummary(true) %>
 
         <fieldset>
-            <legend>AGREGAR UN NUEVO CURSO</legend>
-            
-            
+            <legend>AGREGAR UN NUEVO CURSO</legend>                
             
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.Descripcion) %>
