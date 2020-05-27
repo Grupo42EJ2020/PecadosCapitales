@@ -34,7 +34,6 @@ namespace MVCLaboratorio.Models
             parametros.Add(new SqlParameter("@IdTema", IdTema));
 
             dtTema = BaseHelper.ejecutarConsulta("sp_Tema_ConsultarporId", CommandType.StoredProcedure, parametros);
-
             Tema datosTema = new Tema();
 
             if (dtTema.Rows.Count > 0)
@@ -61,7 +60,7 @@ namespace MVCLaboratorio.Models
             List<SqlParameter> parametros = new List<SqlParameter>();
             parametros.Add(new SqlParameter("@IdTema", IdTema));
 
-            BaseHelper.ejecutarSentencia("sp_Curso_Eliminar", CommandType.StoredProcedure, parametros);
+            BaseHelper.ejecutarSentencia("sp_Tema_Eliminar", CommandType.StoredProcedure, parametros);
 
         }
         public void actualizarTema(Tema datosTema)

@@ -12,7 +12,7 @@
  
          <br />
         
-        <div class="display-label">IdCurso</div>
+        <div class="display-label">IdTema</div>
         <div class="display-field"><%: Model.IdTema %></div>
     <br />
         <div class="display-label">Descripcion</div>

@@ -12,7 +12,9 @@
         <center> 
       
     <h1> EDITAR UN TEMA</h1></center>
-                    
+            
+            
+                  
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.Nombre) %>
             </div>
@@ -22,7 +24,7 @@
             </div>
             
             <p>
-                <input type="submit" value="Save" />
+                <input type="submit" value="Guardar" />
             </p>
               </center>
 
