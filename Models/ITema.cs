@@ -10,7 +10,7 @@ namespace MVCLaboratorio.Models
         List<Tema> obtenerTema();
         Tema obtenerTema(int IdTema);
         void insertarTema(Tema datosTema);
-        void eliminarTema(int idTema);
+        void eliminarTema(int IdTema);
         void actualizarTema(Tema datosTema);
     }
 }

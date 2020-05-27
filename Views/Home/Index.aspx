@@ -48,7 +48,7 @@
         <br />
     <a href="/Curso/Index">CURSO</a> 
         <br />
-    <a href="Tema/Index/">TEMA</a> 
+    <a href="/Tema/Index/">TEMA</a> 
         <br />
     <a href="/Curso_Tema/Index">CURSO_TEMA</a> 
         <br />
