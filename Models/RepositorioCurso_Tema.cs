@@ -11,9 +11,7 @@ namespace MVCLaboratorio.Models
 {
     public class RepositorioCurso_Tema : ICurso_Tema
     {
-        public object IdCT;
-        public object IdCurso;
-        public object IdTema;
+
         public List<Curso_Tema> obtenerCurso_Tema()
         {
             //Obtener la informacion de Curso_Tema de la Base

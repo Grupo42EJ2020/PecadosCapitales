@@ -30,8 +30,15 @@ namespace MVCLaboratorio.Controllers
         public ActionResult TemaDelete(int id, FormCollection datos)
         {
             //Delete del registro
-            repoTema.eliminarTema(id);
-            return RedirectToAction("Index");
+            if (repoTema.obtenerDependenciaTema(id) == 1)
+            {
+                return RedirectToAction("Error");
+            }
+            else
+            {
+                repoTema.eliminarTema(id);
+                return RedirectToAction("Error");
+            }
         }
         public ActionResult TemaDetails(int id)
         {
@@ -48,7 +55,6 @@ namespace MVCLaboratorio.Controllers
         {
             datosTema.IdTema = id;
             repoTema.actualizarTema(datosTema);
-
             return RedirectToAction("Index");
         }
         public ActionResult TemaCreate()
@@ -62,6 +68,10 @@ namespace MVCLaboratorio.Controllers
         {
             repoTema.insertarTema(datos);
             return RedirectToAction("Index");
+        }
+        public ActionResult Error()
+        {
+            return View();
         }
     }
 }
