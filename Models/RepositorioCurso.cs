@@ -79,5 +79,22 @@ namespace MVCLaboratorio.Models
 
             BaseHelper.ejecutarSentencia("sp_Curso_Actualizar", CommandType.StoredProcedure, parametros);
         }
+        public int obtenerDependenciaCurso(int id)
+        {
+            DataTable dtVideo;
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdCurso", id));
+
+            dtVideo = BaseHelper.ejecutarConsulta("sp_Curso_Dependiente", CommandType.StoredProcedure, parametros);
+
+            if (dtVideo.Rows.Count > 0) //si lo encontro
+            {
+                return 1;
+            }
+            else
+            { //no lo encontro 
+                return 0;
+            }
+        }
     }
 }
