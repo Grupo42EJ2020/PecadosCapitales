@@ -6,7 +6,8 @@
 <head id="Head1" runat="server">
     <title>TemaCreate</title>
 </head>
-<body>
+<body><body style="background-color:#B82222 ;">
+<center>  <img align=right src="../../Content/Francisco420Photos/Leon.jpg" width="600" height="350"/> </center>
     <% using (Html.BeginForm()) {%>
         <%: Html.ValidationSummary(true) %>
 

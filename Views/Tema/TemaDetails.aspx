@@ -6,9 +6,10 @@
 <head id="Head1" runat="server">
     <title>TemaDetails</title>
 </head>
-<body>
-<center> <h1> DETALLES DEL TEMA</h1></center>
+<body><body style="background-color:#B82222;">
 
+<center> <h1> DETALLES DEL TEMA</h1></center>
+ <center><img align=right src="../../Content/Francisco420Photos/Leon.jpg" width="600" height="350"/> </center>
 
         
        <div class="display-label">Numero del Tema</div>

@@ -7,6 +7,10 @@
     <title>Tema</title>
 </head>
 <body>
+<body style="background-color:#B82222 ;">
+    <center> 
+        <img align="right" src="../../Content/Francisco420Photos/Leon.jpg" width="600" height="350"/>
+    </center>
     <table>
         <tr>
             <th></th>

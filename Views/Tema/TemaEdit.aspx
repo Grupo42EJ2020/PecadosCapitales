@@ -6,14 +6,14 @@
 <head id="Head1" runat="server">
     <title>TemaEdit</title>
 </head>
-<body>
+<body><body style="background-color:#B82222 ;"> 
     <% using (Html.BeginForm()) {%>
         <%: Html.ValidationSummary(true) %>
         <center> 
       
     <h1> EDITAR UN TEMA</h1></center>
             
-            
+  <center> <img align=left src="../../Content/Francisco420Photos/Leon.jpg"width="600" height="350"/> </center>
                   
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.Nombre) %>

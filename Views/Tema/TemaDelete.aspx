@@ -6,7 +6,8 @@
 <head id="Head1" runat="server">
     <title>TemaDelete</title>
 </head>
-<body>
+<body><body style="background-color:#B82222 ;">
+<center> <img align=right src="../../Content/Francisco420Photos/Leon.jpg" /> width="600" height="350"/> </center>
 <fieldset>
     <h3>¿SEGURO QUE QUIERES ELIMINARLO?</h3>
  
