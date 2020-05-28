@@ -7,7 +7,8 @@
     <title>Error</title>
 </head>
 <body>
-    <h1>No se ha podido eliminar porque ese registro depende de otro</h1>
+<body style="background-color:Lime ;">
+    <h1>NO SE HA PODIDO ELIMINAR PORQUE ESTE REGISTRO DEPENDE DE OTRO</h1>
     </br>
     <a href="/Home/Index">Regresar al menú</a>
     </div>

@@ -6,6 +6,7 @@
     <title>Inicio</title>
     <style type="text/css">
     html, body
+    
     {
     width: 100%;
     height: 110%; 
@@ -33,7 +34,8 @@
     color: #4c5557;
     background-color: #dff2f7;
     text-decoration: none;
-    }           
+    }     
+          
     </style>
 </head>
 <body>
@@ -44,17 +46,20 @@
     <h1><center>&#10015; Bienvenido a la pagina oficial de los 7 pecados capitales &#10015; </center>
      </h1>
     <center>
-    <a href="//">EMPLEADO</a> 
-        <br />
-    <a href="/Curso/Index">CURSO</a> 
-        <br />
-    <a href="/Tema/Index/">TEMA</a> 
-        <br />
-    <a href="/Curso_Tema/Index">CURSO_TEMA</a> 
-        <br />
-    <a href="/Curso_Tema_Video/Index/">CURSO_TEMA_VIDEO</a> 
-        <br />
-    <a href="/Video/Video">VIDEO</a> 
+       <ul id=”button”>
+ <li><a href="//">EMPLEADO</a></li>
+
+ <li><a href="/Curso/Index">CURSO</a></li>
+
+ <li><a href="/Tema/Index">TEMA</a></li>
+
+ <li><a href="/Curso_Tema/Index">CURSO_TEMA</a></li>
+
+ <li><a href="/Curso_Tema_Video/Index">CURSO_TEMA_VIDEO</a></li>
+
+ <li><a href="/Video/Video">VIDEO</a></li>
+
+ </ul> 
         <br />
     </center>
      

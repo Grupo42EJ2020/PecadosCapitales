@@ -32,12 +32,12 @@ namespace MVCLaboratorio.Controllers
             //Delete del registro
             if (repoTema.obtenerDependenciaTema(id) == 1)
             {
-                return RedirectToAction("Error");
+                return RedirectToAction("Error","Tema");
             }
             else
             {
                 repoTema.eliminarTema(id);
-                return RedirectToAction("Error");
+                return RedirectToAction("Index");
             }
         }
         public ActionResult TemaDetails(int id)
