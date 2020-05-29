@@ -6,21 +6,25 @@
 <head runat="server">
     <title>Index</title>
 </head>
-<body>
+<body style="background-color:#B82222 ;">
+    <center>
+    
+    <img align="right" src="../../Content/IrvingPhotos/pecados.png" width="600" height="350"/>
+    </center>
     <table>
         <tr>
             <th></th>
             <th>
-                IdCT
+               Numero del Curso_Tema
             </th>
             <th>
-                IdCurso
+                Numero del Curso
             </th>
             <th>
-                IdTema
+                Numero del Tema
             </th>
         </tr>
-
+        <br />
     <% foreach (var item in Model) { %>
     
         <tr>
@@ -43,7 +47,16 @@
     <% } %>
 
     </table>
-
+    <p>
+        <br />
+    <style>
+    a { color: Black; } /* CSS link color */
+  </style>
+  <center> 
+        <%: Html.ActionLink("AGREGAR", "Curso_TemaCreate")%>
+         <style>
+    a { color: Black; } /* CSS link color */
+  </style>
     <p>
         <%: Html.ActionLink("Create New", "Curso_TemaCreate") %>
         <a href="/Home/Index">REGRESAR A LA LISTA</a>
