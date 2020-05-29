@@ -69,6 +69,7 @@
     <Compile Include="Controllers\CursoController.cs" />
     <Compile Include="Controllers\Curso_TemaController.cs" />
     <Compile Include="Controllers\Curso_Tema_VideoController.cs" />
+    <Compile Include="Controllers\EmpleadoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\TemaController.cs" />
     <Compile Include="Controllers\VideoController.cs" />
@@ -78,14 +79,17 @@
     <Compile Include="Models\Curso.cs" />
     <Compile Include="Models\Curso_Tema.cs" />
     <Compile Include="Models\Curso_Tema_Video.cs" />
+    <Compile Include="Models\Empleado.cs" />
     <Compile Include="Models\ICurso.cs" />
     <Compile Include="Models\ICurso_Tema.cs" />
     <Compile Include="Models\ICurso_Tema_Video.cs" />
+    <Compile Include="Models\IEmpleado.cs" />
     <Compile Include="Models\ITema.cs" />
     <Compile Include="Models\IVideo.cs" />
     <Compile Include="Models\RepositorioCurso.cs" />
     <Compile Include="Models\RepositorioCurso_Tema.cs" />
     <Compile Include="Models\RepositorioCurso_Tema_Video.cs" />
+    <Compile Include="Models\RepositorioEmpleado.cs" />
     <Compile Include="Models\RepositorioTema.cs" />
     <Compile Include="Models\RepositorioVideo.cs" />
     <Compile Include="Models\Tema.cs" />
@@ -113,6 +117,11 @@
     <Content Include="Views\Curso_Tema_Video\CTVDetails.aspx" />
     <Content Include="Views\Curso_Tema_Video\CTVEdit.aspx" />
     <Content Include="Views\Curso_Tema_Video\Index.aspx" />
+    <Content Include="Views\Empleado\Create.aspx" />
+    <Content Include="Views\Empleado\Delete.aspx" />
+    <Content Include="Views\Empleado\Details.aspx" />
+    <Content Include="Views\Empleado\Edit.aspx" />
+    <Content Include="Views\Empleado\Index.aspx" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Tema\Error.aspx" />

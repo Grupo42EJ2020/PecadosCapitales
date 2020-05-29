@@ -47,7 +47,7 @@
      </h1>
     <center>
        <ul id=”button”>
- <li><a href="//">EMPLEADO</a></li>
+ <li><a href="/Empleado/Index">EMPLEADO</a></li>
 
  <li><a href="/Curso/Index">CURSO</a></li>
 
