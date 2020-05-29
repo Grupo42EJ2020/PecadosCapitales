@@ -10,7 +10,7 @@
     {
     width: 100%;
     height: 110%; 
-    background: #DD4E02;
+    background: #ce401a;
     font-family:Arial ; 
     }
     a:link, a:visited{
@@ -28,7 +28,7 @@
     text-align:center;
     display: inline-block;
     margin: 25px 50px 0 50px;
-    background-color: #DD4E02;
+    background-color: #ce401a;
     }
     a:hover{
     color: #4c5557;

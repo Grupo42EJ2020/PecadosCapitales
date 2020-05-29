@@ -10,7 +10,7 @@ namespace MVCLaboratorio.Models
 {
     public class RepositorioCurso_Tema_Video
     {
-        public List<Curso_Tema_Video> obtenerCTVs()
+        public List<Curso_Tema_Video> obtenerCTV()
         {
             //funcionalidad
             DataTable dtCTV;

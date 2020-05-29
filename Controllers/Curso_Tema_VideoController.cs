@@ -16,14 +16,14 @@ namespace MVCLaboratorio.Controllers
             //Muestra la lista 
             public ActionResult Index()
             {
-                return View(repoCTV.obtenerCTVs());
+                return View(repoCTV.obtenerCTV());
             }
 
             //Metodo para borrar 
             public ActionResult CTVDelete(int id)
             {
                 //obtener los datos para mostrarlo al usuario antes de borrarlo
-                return View(repoCTV.obtenerCTVs());
+                return View(repoCTV.obtenerCTV(id));
             }
 
             [HttpPost]
@@ -57,7 +57,6 @@ namespace MVCLaboratorio.Controllers
 
             public ActionResult CTVCreate()
             {
-                //mostrar interfaz para llenado
                 return View();
             }
 

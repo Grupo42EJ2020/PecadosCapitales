@@ -6,6 +6,11 @@
 <head runat="server">
     <title>Index</title>
 </head>
+<body style="background-color:#d2bbd7  ;">
+    <center>
+    
+    <img align="right" src="../../Content/PacoYee6661Photos/Gowther.jpg" width="600" height="350"/>
+    </center>
 <body>
     <table>
         <tr>
