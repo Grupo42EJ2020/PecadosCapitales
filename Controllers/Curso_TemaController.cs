@@ -28,7 +28,15 @@ namespace MVCLaboratorio.Controllers
         public ActionResult Curso_TemaDelete(int id, FormCollection datos)
         {
             //Delete del registro de Curso_Tema
-            repoCurso_Tema.eliminarCurso_Tema(id);
+            if (repoCurso_Tema.obtenerCursoTemaDependiente(id) == 1)
+            {
+                return RedirectToAction("Error", "Tema");
+            }
+            else
+            {
+                repoCurso_Tema.eliminarCurso_Tema(id);
+            }
+
 
             return RedirectToAction("Index");
         }

@@ -58,7 +58,6 @@
     a { color: Black; } /* CSS link color */
   </style>
     <p>
-        <%: Html.ActionLink("Create New", "Curso_TemaCreate") %>
         <a href="/Home/Index">REGRESAR A LA LISTA</a>
     </p>
 
