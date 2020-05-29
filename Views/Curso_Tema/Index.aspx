@@ -6,6 +6,7 @@
 <head runat="server">
     <title>Index</title>
 </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <body style="background-color:#B82222 ;">
     <center>
     

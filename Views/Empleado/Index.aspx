@@ -6,6 +6,10 @@
 <head runat="server">
     <title>Index</title>
 </head>
+
+<body style="background-color:#8537a7 ;">
+    <img align="right" src="../../Content/ObedJassoPhotos/Merlin.jpg" width="600" height="350"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
     <table>
         <tr>
@@ -45,8 +49,16 @@
     </table>
 
     <p>
-        <%: Html.ActionLink("Crear Nuevo Empleado", "Create") %>
-        <a href="/Home/Index">Regresar al inicio</a>
+      <style>
+    a { color: Black; } /* CSS link color */
+  </style>
+  <center> 
+  <%: Html.ActionLink("Crear Nuevo Empleado", "Create") %>
+  <style>
+  a { color: Black; } /* CSS link color */
+  </style> 
+      <br />    
+  <a href="/Home/Index">Regresar al inicio</a>
     </p>
 
 </body>

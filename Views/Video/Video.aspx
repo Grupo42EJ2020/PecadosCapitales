@@ -6,6 +6,9 @@
 <head id="Head1" runat="server">
     <title>Video</title>
 </head>
+<body style="background-color:#5a8d88 ;">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<img align="right" src="../../Content/ChendoPhotos/king.jpg" width="600" height="350"/>
 <body>
     <table>
         <tr>

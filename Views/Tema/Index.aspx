@@ -6,10 +6,11 @@
 <head id="Head1" runat="server">
     <title>Tema</title>
 </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
-<body style="background-color:#B82222 ;">
+<body style="background-color:#c92035 ;">
     <center> 
-        <img align="right" src="../../Content/Francisco420Photos/Leon.jpg" width="600" height="350"/>
+        <img align="right" src="../../Content/Francisco420Photos/Leon.jpeg" width="600" height="350"/>
     </center>
     <table>
         <tr>
