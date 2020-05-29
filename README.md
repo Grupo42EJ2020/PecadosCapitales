@@ -1,4 +1,4 @@
-Aun no edita la ventana de pancho
-Aun no sirve la de chendo
+La de chendo no edita bien aun pero ya borra
 Aun no probamos la de Paco
-El Obed aun no empieza 
+El Obed ya casi empieza as of 28/05/2020 22:26 
+
