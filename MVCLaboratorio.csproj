@@ -162,7 +162,7 @@
     <Folder Include="Content\ChendoPhotos\" />
     <Folder Include="Content\Francisco420Photos\" />
     <Folder Include="Content\ObedJassoPhotos\" />
-    <Folder Include="Content\PacoYee661Photos\" />
+    <Folder Include="Content\PacoYee6661Photos\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
